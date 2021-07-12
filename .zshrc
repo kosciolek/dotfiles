@@ -175,6 +175,8 @@ function note(){
   (cd $HOME/notes && git add -A && git commit -m "auto commit" && git push)
 }
 
+alias git-dotfiles='git --git-dir=$HOME/.git-dotfiles'
+
 ############################# CUSTOM END #############################
 
 
